@@ -10,8 +10,9 @@
     <div id="chatbot-container"></div>
     <script>
         const chatbot = new AgentChatWidget({
-            endpoint: "https://acazz6js52pbhgtmykkodxmo.agents.do-ai.run/v1/<workspace-id>/run",
-            container: "#chatbot-container",
+            // Pastikan untuk mengganti <workspace-id> dengan ID workspace milikmu
+            endpoint: "https://acazz6js52pbhgtmykkodxmo.agents.do-ai.run/v1/<workspace-id>/run", 
+            container: "#chatbot-container", 
             title: "Chat with us"
         });
 
