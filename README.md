@@ -8,9 +8,10 @@
 </head>
 <body>
     <div id="chatbot-container"></div>
+
     <script>
         const chatbot = new AgentChatWidget({
-            // Ganti dengan ID Chatbot yang kamu punya
+            // Endpoint API tanpa autentikasi Access Key di sini
             endpoint: "https://acazz6js52pbhgtmykkodxmo.agents.do-ai.run/v1/n3b06LChLMsGpUBExD0cwR82ohWFpH-f/run",
             container: "#chatbot-container", 
             title: "Chat with us"
